@@ -1,0 +1,37 @@
+body {
+  font-family: Montserrat;
+}
+.regbutton {
+  position: absolute;
+  width: 85vw;
+  height: 11vw;
+  left: 7vw;
+  top: 115vw;
+  background: #46d94b;
+  border-radius: 10px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  padding-top: 5vw;
+  text-decoration: none;
+}
+.reginput {
+  position: absolute;
+  width: 85vw;
+  height: 16vw;
+  left: 7vw;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 17px rgba(85, 85, 85, 0.05);
+  border-radius: 10px;
+  border: 0;
+  outline: 0;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("ttf/Montserrat-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
