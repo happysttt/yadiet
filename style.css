@@ -1,5 +1,6 @@
 body {
   font-family: Montserrat;
+  background-color: #faf8f5;
 }
 .regbutton {
   position: absolute;
@@ -21,14 +22,58 @@ body {
   width: 85vw;
   height: 16vw;
   left: 7vw;
-
+  font-family: Montserrat;
   background: #ffffff;
+  padding-left: 20px;
+  font-size: 18px;
   box-shadow: 0px 0px 17px rgba(85, 85, 85, 0.05);
   border-radius: 10px;
   border: 0;
   outline: 0;
+  font-weight: bold;
+  padding-right: 20px;
 }
+.regp1 {
+  text-align: center;
+  height: 29px;
+  margin: 10vw auto;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
 
+  color: #1b1e31;
+}
+.step1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  margin: 2vw auto;
+  height: 16px;
+  text-align: center;
+  line-height: 16px;
+  text-align: center;
+
+  color: #46d94b;
+}
+.mainp {
+  position: absolute;
+  height: 29px;
+  left: 7vw;
+  top: 6vw;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: -0.3px;
+
+  color: #1b1e31;
+}
 @font-face {
   font-family: "Montserrat";
   src: url("ttf/Montserrat-Regular.ttf") format("truetype");
