@@ -2,12 +2,27 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
+        <link rel="manifest" href="manifest.json">
     </head>
+
     <body>
+        <p id="requireHTTPS" class="hidden">
+            <b>STOP!</b> This page <b>must</b> be served over HTTPS.
+            Please <a>reload this page via HTTPS</a>.
+        </p>
+
+        <div id="installContainer" class="hidden">
+            <button id="butInstall" type="button">
+                Install
+            </button>
+        </div>
+
         <input type="text" class="reginput" style="top: 70vw;">
         <input type="text" class="reginput" style="top: 40vw;">
         <a href="main.html" class="regbutton">
             Регистрация
         </a>
+
+        <script src="script.js" type="text/javascript" defer></script>
     </body>
 </html>
