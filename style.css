@@ -74,9 +74,68 @@ body {
 
   color: #1b1e31;
 }
+.profile1 {
+  position: absolute;
+  width: 95vw;
+  top: 92px;
+}
+.green {
+  width: 85vw;
+  left: 7vw;
+  top: 70vw;
+  position: absolute;
+}
+.yellow {
+  width: 85vw;
+  left: 7vw;
+  top: 110vw;
+  position: absolute;
+}
+.blue {
+  width: 85vw;
+  left: 7vw;
+  top: 150vw;
+  position: absolute;
+}
 @font-face {
   font-family: "Montserrat";
   src: url("ttf/Montserrat-Regular.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
+}
+.anemia {
+  width: 85vw;
+  left: 7vw;
+  top: 33vw;
+  position: absolute;
+}
+.sahar {
+  width: 85vw;
+  left: 7vw;
+  top: 58vw;
+  position: absolute;
+}
+.gemor {
+  width: 85vw;
+  left: 7vw;
+  top: 83vw;
+  position: absolute;
+}
+.zapor {
+  width: 85vw;
+  left: 7vw;
+  top: 108vw;
+  position: absolute;
+}
+.vzk {
+  width: 85vw;
+  left: 7vw;
+  top: 133vw;
+  position: absolute;
+}
+.yazva {
+  width: 85vw;
+  left: 7vw;
+  top: 158vw;
+  position: absolute;
 }
